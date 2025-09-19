@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui, sans-serif;
+  color: white;
+  margin: 0;
+  background: linear-gradient(to bottom, purple, black);
+}
+
+h1{
+  display: grid;
+  text-align: center;  
+}
+p{
+  display: grid;
+  text-align: center;
+  padding: 20px;
+}
+img{
+  width:80%;
+  height: auto;
+}
+.assets{
+   display: flex;
+   justify-content: center;
+}
+.hori{
+  display: flex;
+  padding: 55px;
+  height: 318px;
+  overflow: hidden;
+}
+.verti{
+  display: block;
+  
+}
+.long{
+  width: 50%;
+  height: auto;
+}
+.small{
+  width: 100%;
+  height: auto;
+}
